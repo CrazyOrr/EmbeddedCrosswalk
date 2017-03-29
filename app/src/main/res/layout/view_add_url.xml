@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/url_item_vertical_padding"
+    android:paddingLeft="@dimen/url_item_horizontal_padding"
+    android:paddingRight="@dimen/url_item_horizontal_padding"
+    android:paddingTop="@dimen/url_item_vertical_padding">
+
+    <TextView
+        style="@style/FormTitle"
+        android:text="@string/url" />
+
+    <EditText
+        android:id="@+id/et_url"
+        style="@style/FormInput"
+        android:inputType="textUri" />
+
+    <TextView
+        style="@style/FormTitle"
+        android:text="@string/description" />
+
+    <EditText
+        android:id="@+id/et_description"
+        style="@style/FormInput"
+        android:inputType="text" />
+</LinearLayout>

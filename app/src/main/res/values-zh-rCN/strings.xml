@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">嵌入Crosswalk</string>
+    <string name="add">添加</string>
+    <string name="add_url">添加URL</string>
+    <string name="choose_url">选择URL</string>
+    <string name="description">描述（可选）</string>
+    <string name="settings">设置</string>
+    <string name="url_already_exists">URL已经存在</string>
+</resources>

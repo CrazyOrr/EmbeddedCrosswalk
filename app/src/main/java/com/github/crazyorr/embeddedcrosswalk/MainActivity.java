@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         mXWalkView.evaluateJavascript(String.format("android2Js('%s')", content), new ValueCallback<String>() {
             @Override
             public void onReceiveValue(final String value) {
+                // TODO Question: the evaluated result String is quoted (surrounded by "")
                 Log.i(TAG, "android2Js returns: " + value);
             }
         });
